@@ -3,11 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <title>QUnit Test Suite</title>
-  <link rel="stylesheet" href="qunit/qunit.css" type="text/css" media="screen">
-  <script type="text/javascript" src="qunit/qunit.js"></script>
+  <link rel="stylesheet" href="vendor/qunit.css" type="text/css" media="screen">
+  <script type="text/javascript" src="vendor/qunit.js"></script>
   <script type="text/javascript" src="minispade.js"></script>
+  <script type="text/javascript" src="vendor/jquery-1.7.1.js"></script>
   <script type="text/javascript" src="vendor/ember-0.9.3.js"></script>
-  <script type="text/javascript" src="flash-tests.js"></script>
+
+  <script type="text/javascript">
+    var App = Ember.Application.create();
+  </script>
+
+  <script type="text/javascript" src="lib/flash_message.js"></script>
+  <script type="text/javascript" src="lib/flash_controller.js"></script>
+  <script type="text/javascript" src="lib/flash_queue.js"></script>
+  <script type="text/javascript" src="lib/flash_view.js"></script>
+
+  <script type="text/javascript" src="flash_message_test.js"></script>
+  <script type="text/javascript" src="flash_controller_test.js"></script>
+  <script type="text/javascript" src="flash_queue_test.js"></script>
+  <script type="text/javascript" src="flash_view_test.js"></script>
 </head>
 <body>
   <h1 id="qunit-header">QUnit Test Suite</h1>

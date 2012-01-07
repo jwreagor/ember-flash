@@ -1,34 +1,20 @@
 {
-  "name": "ember-metal",
-  "description": "JavaScript on Steroids",
-  "summary": "JavaScript on Steroids",
-  "homepage": "http://github.com/emberjs/ember.js",
-  "author": "Charles Jolley",
-  "version": "0.9.3",
+  "name": "ember-flash",
+  "description": "Clean flash message system and queue for Ember.js applications.",
+  "summary": "Flash messages for Ember.js apps",
+  "homepage": "http://github.com/cheapRoc/ember-flash",
+  "author": "Justin Reagor",
+  "version": "0.1.0",
 
   "dependencies": {
-    "spade": "~> 1.0.0"
+    "ember.js": "~> 0.9.3"
   },
 
   "directories": {
     "lib": "lib"
   },
-  
+
   "dependencies:development": {
     "spade-qunit": "~> 1.0.0"
-  },
-  
-  "bpm:build": {
-    
-    "bpm_libs.js": {
-      "files": ["lib"],
-      "modes":        "*"
-    },
-    
-    "ember-metal/bpm_tests.js": {
-      "files": ["tests"],
-      "modes": ["debug"]
-    }
   }
-
 }

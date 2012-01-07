@@ -1,0 +1,42 @@
+#flash-view
+
+  &.is-notice
+    color inherit
+
+    #message
+      background-color #ffffff
+      background rgb(255, 255, 255)
+      background rgba(255, 255, 255, 0.8)
+
+  &.is-error
+    color #AC1212
+
+    #message
+      background-color #ffc4b6
+      background-color rgb(255, 196, 182)
+      background-color rgba(255, 196, 182, 0.8)
+    
+  &.is-warning
+    color #574b13
+
+    #message
+      background-color #ffec81
+      background-color rgb(255, 236, 129)
+      background-color rgba(255, 236, 129, 0.8)
+
+  #message
+    position fixed
+    width 100%
+    top 40px
+    z-index 23
+    padding 1em
+    -webkit-box-shadow 0 1px 5px rgba(0, 0, 0, 0.3)
+    -moz-box-shadow 0 1px 5px rgba(0, 0, 0, 0.3)
+    box-shadow 0 1px 5px rgba(0, 0, 0, 0.3)
+    border-bottom 1px solid #999
+
+    a.close
+      position absolute
+      bottom 0
+      right 0
+      padding 8px
