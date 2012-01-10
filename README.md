@@ -8,4 +8,15 @@ Please don't expect this to be an out of box experience, this is only an example
 Example
 -------
 
-Coming soon...
+Coming soon... read the source and tests for now.
+
+Tests
+-----
+
+To run the qunit tests you'll need phantomjs installed. You can also open the `test/index.html` file in your web browser.
+
+    $ brew install phantomjs
+    $ cd test
+    $ phantomjs runner.js file:///Users/you/Somewhere/ember-flash/test/index.html
+
+
