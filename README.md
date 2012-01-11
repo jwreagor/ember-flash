@@ -17,19 +17,19 @@ for an already existing web application. The only prerequisite is EmberJS and jQ
 Usage
 -----
 
-1. Include all of the scripts under ``lib/``.
+  1. Include all of the scripts under ``lib/``.
 
-2. Add the appropriate HTML and CSS, using the examples under ``share/``.
+  2. Add the appropriate HTML and CSS, using the examples under ``share/``.
 
-3. Call the following when you are ready to flash a message to your users.
+  3. Call the following when you are ready to flash a message to your users.
 
-    Ember.flashQueue.pushFlash('notice', 'This is the message');
-
-4. I prefer to map this to my application namespace, as a helper.
-
-    App.setFlash = function(type, mesg) {
       Ember.flashQueue.pushFlash('notice', 'This is the message');
-    }
+
+  4. I prefer to map this to my application namespace, as a helper.
+
+      App.setFlash = function(type, mesg) {
+        Ember.flashQueue.pushFlash('notice', 'This is the message');
+      }
 
 Tests
 -----
