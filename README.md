@@ -31,7 +31,7 @@ Usage
 
 ```javascript
     App.setFlash = function(type, mesg) {
-      Ember.flashQueue.pushFlash('notice', 'This is the message');
+      Ember.flashQueue.pushFlash(type, mesg);
     }
 ```
 
