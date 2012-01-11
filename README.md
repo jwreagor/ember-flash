@@ -23,13 +23,17 @@ Usage
 
 * Call the following when you are ready to flash a message to your users.
 
+```javascript
     Ember.flashQueue.pushFlash('notice', 'This is the message');
+```
 
 * I prefer to map this to my application namespace, as a helper.
 
+```javascript
     App.setFlash = function(type, mesg) {
       Ember.flashQueue.pushFlash('notice', 'This is the message');
     }
+```
 
 Tests
 -----
