@@ -7,8 +7,9 @@
 
   <script type="text/javascript" src="vendor/qunit.js"></script>
   <script type="text/javascript" src="vendor/minispade.js"></script>
-  <script type="text/javascript" src="vendor/jquery-1.7.1.js"></script>
-  <script type="text/javascript" src="vendor/ember-0.9.7.1.js"></script>
+  <script type="text/javascript" src="vendor/jquery-2.0.3.min.js"></script>
+  <script type="text/javascript" src="vendor/handlebars-1.0.0-rc.4.js"></script>
+  <script type="text/javascript" src="vendor/ember-1.0.0-rc.6.js"></script>
 
   <script type="text/javascript">
     var App = Ember.Application.create();
@@ -80,7 +81,7 @@
       len = packages.length;
 
       // There are no requires for these in the code
-      minispade.require('jquery-1.6.2');
+      minispade.require('jquery-2.0.3');
       minispade.require('handlebars');
 
       for (idx=0; idx<len; idx++) {
