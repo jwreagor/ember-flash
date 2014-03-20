@@ -1,5 +1,4 @@
-ember-flash
-===========
+# ember-flash
 
 **ember-flash** is a simple flash message widget that is used to alert a user. A
 message is simply given a type (notice, warning, error) and a message body and is
@@ -14,8 +13,7 @@ applications.
 Side note: This is also a great example of how EmberJS can be used to build widgets
 for an already existing web application. The only prerequisite is EmberJS and jQuery.
 
-Usage
------
+## Usage
 
 * Include all of the scripts under ``lib/``.
 
@@ -35,8 +33,7 @@ Usage
     }
 ```
 
-Tests
------
+## Tests
 
 To run the QUnit tests headless you'll need ``PhantomJS`` installed. You can also
 open the `test/index.html` file in your web browser locally.
@@ -46,3 +43,13 @@ open the `test/index.html` file in your web browser locally.
     $ phantomjs runner.js file:///Users/you/Somewhere/ember-flash/test/index.html
 
 
+## Thanks
+
+These people contributed and are awesome.
+
+* @[gerry3](https://github.com/gerry3)
+* @[bradleypriest](https://github.com/bradleypriest)
+
+## [License](https://www.youtube.com/watch?v=jvOge07GcO4)
+
+This part intentionally left blank.
