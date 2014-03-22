@@ -52,4 +52,4 @@ These people contributed and are awesome.
 
 ## [License](https://www.youtube.com/watch?v=jvOge07GcO4)
 
-This part intentionally left blank.
+[This part](https://help.github.com/articles/open-source-licensing#where-does-the-license-live-on-my-repository) [intentionally](https://github.com/cheapRoc/ember-flash/blob/master/LICENSE) left blank.
